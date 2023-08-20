@@ -2,6 +2,18 @@
 
 Authentication System
 
+## Over de App
+
+Deze applicatie is ontwikkeld om te illustreren hoe Identity UI binnen ASP.NET Core werkt en hoe het kan worden aangepast en uitgebreid om aan specifieke projectvereisten te voldoen. Hieronder volgen enkele van de belangrijkste functies en concepten die in deze app worden gedemonstreerd:
+
+1. Toevoegen van Asp.Net Core Identity
+2. Nieuwe Eigenschappen Toevoegen aan Identity
+3. Aanpassen van Wachtwoordvalidaties
+4. Weergeven van Ingelogde Gebruikersgegevens in App NavBar
+5. Inlogformulier
+6. Ophalen van ingelogde gebruikers-id of gebruikersclaims
+7. Autorisatie
+
 ## Voorbeelden
 
 ![Voorbeeldafbeelding 1](Images/Account-Settings-Logged-In.png)
