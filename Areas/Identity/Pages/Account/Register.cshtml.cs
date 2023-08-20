@@ -71,12 +71,12 @@ namespace User_Registration_And_Login_With_MVC_And_Identity_UI.Areas.Identity.Pa
         /// </summary>
         public class InputModel
         {
-            [Required]
+            
             [DataType(DataType.Text)]   
             [Display(Name ="First Name")]
             public string FirstName { get; set; }
 
-			[Required]
+			
 			[DataType(DataType.Text)]
 			[Display(Name = "Last Name")]
 			public string LastName { get; set; }
