@@ -87,6 +87,10 @@ namespace User_Registration_And_Login_With_MVC_And_Identity_UI.Areas.Identity.Pa
 
         public async Task OnGetAsync(string returnUrl = null)
         {
+            if(User.Identity.IsAuthenticated)
+            {
+                Response.Redirect("/");
+            }
             if (!string.IsNullOrEmpty(ErrorMessage))
             {
                 ModelState.AddModelError(string.Empty, ErrorMessage);

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using User_Registration_And_Login_With_MVC_And_Identity_UI.Areas.Identity.Data;
@@ -6,6 +7,7 @@ using User_Registration_And_Login_With_MVC_And_Identity_UI.Models;
 
 namespace User_Registration_And_Login_With_MVC_And_Identity_UI.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
